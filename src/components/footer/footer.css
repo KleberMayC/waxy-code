@@ -1,0 +1,20 @@
+footer{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px){
+    footer{
+        width: 100%;
+    }
+    footer p{
+        font-size: 10px;
+        
+    }
+}
